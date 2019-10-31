@@ -1,11 +1,7 @@
-# api-development-php
-
-A simple rest API in php
-
-# Display all products 
+Display all products 
     http://localhost/api/product/read.php
 
-# Create products
+Create products
     http://localhost/api/product/create.php
     
     Click "Body" tab. Click "raw". Enter this JSON value:
@@ -18,10 +14,10 @@ A simple rest API in php
         "created" : "2018-06-01 00:35:07"
     }
 
-# Search product by id
+Search product by id
     http://localhost/api/product/read_one.php?id=60
 
-# Update products
+Update products
     http://localhost/api/product/update.php
 
     Click "Body" tab. Click "raw". Enter the following JSON value (make sure the ID exists in your database) and click the blue "Send" button.
@@ -35,7 +31,7 @@ A simple rest API in php
         "created" : "2018-08-01 00:35:07"
     }
 
-# Delete product
+Delete product
     http://localhost/api/product/delete.php
     
     Click "Body" tab. Click "raw". Enter the following JSON value (make sure the ID exists in your database) and click the blue "Send" button.
@@ -44,13 +40,13 @@ A simple rest API in php
         "id" : "106"
     }
 
-# Search 
+Search 
     http://localhost/api/product/search.php?s=shirt
 
-# Pagination
+Pagination
     http://localhost/api/product/read_paging.php
 
-# Read 
+Read 
     http://localhost/api/category/read.php
 
 
